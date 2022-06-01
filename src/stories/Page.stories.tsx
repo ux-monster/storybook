@@ -2,6 +2,7 @@ import React from "react";
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import { within, userEvent } from "@storybook/testing-library";
 import { Page } from "./Page";
+import MobileContainer from "./MobileContainer";
 
 export default {
   title: "Example/Page",
@@ -12,7 +13,11 @@ export default {
   }
 } as ComponentMeta<typeof Page>;
 
-const Template: ComponentStory<typeof Page> = (args) => <Page {...args} />;
+const Template: ComponentStory<typeof Page> = (args) => (
+  <MobileContainer>
+    <Page {...args} />
+  </MobileContainer>
+);
 
 export const LoggedOut = Template.bind({});
 
