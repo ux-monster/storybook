@@ -9,5 +9,12 @@ module.exports = {
         debug: false
       }
     }
-  ]
+  ],
+  webpack: {
+    resolve: {
+      alias: {
+        "react-native$": "react-native-web"
+      }
+    }
+  }
 };

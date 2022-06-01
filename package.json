@@ -40,6 +40,7 @@
     "@storybook/testing-library": "^0.0.11",
     "@types/react": "^18.0.10",
     "@types/react-dom": "^18.0.5",
+    "@types/react-native": "^0.67.7",
     "@types/react-router-dom": "^5.3.3",
     "@types/recoil": "^0.0.9",
     "@typescript-eslint/eslint-plugin": "^5.27.0",
@@ -63,6 +64,8 @@
     "prettier": "^2.6.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-native": "^0.68.2",
+    "react-native-web": "^0.17.7",
     "react-router-dom": "^6.3.0",
     "react-scripts": "^5.0.1",
     "recoil": "^0.7.3-alpha.2"
