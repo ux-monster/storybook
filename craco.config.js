@@ -16,5 +16,17 @@ module.exports = {
         "react-native$": "react-native-web"
       }
     }
+  },
+  babel: {
+    plugins: [
+      [
+        "module-resolver",
+        {
+          alias: {
+            "^react-native$": "react-native-web"
+          }
+        }
+      ]
+    ]
   }
 };

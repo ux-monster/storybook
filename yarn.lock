@@ -2303,6 +2303,11 @@
     regenerator-runtime "^0.13.7"
     ts-dedent "^2.0.0"
 
+"@storybook/addon-react-native-web@^0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-react-native-web/-/addon-react-native-web-0.0.18.tgz#920278a3a5d7e3cc03314d52429936cf231354da"
+  integrity sha512-tMZumiF+Dgk7sngMWFrbDdBN3h5C001traYM46CqNQvtJoZvwYe2MPGEeWy3wk+5D8vOv8TFw2i96f3wwfralg==
+
 "@storybook/addon-toolbars@6.5.6":
   version "6.5.6"
   resolved "https://registry.yarnpkg.com/@storybook/addon-toolbars/-/addon-toolbars-6.5.6.tgz#f4f311aaf918e1922d21e9c6f15b06e2cb7ac66c"
@@ -4793,6 +4798,11 @@ babel-plugin-react-docgen@^4.1.0, babel-plugin-react-docgen@^4.2.1:
     ast-types "^0.14.2"
     lodash "^4.17.15"
     react-docgen "^5.0.0"
+
+babel-plugin-react-native-web@^0.17.7:
+  version "0.17.7"
+  resolved "https://registry.yarnpkg.com/babel-plugin-react-native-web/-/babel-plugin-react-native-web-0.17.7.tgz#1580e27a2e3c6692127535d3880fe1e247ef6414"
+  integrity sha512-UBLfIsfU3vi//Ab4i0WSWAfm1whLTK9uJoH0RPZ6a67eS/h9JGYjKy7+1RpHxSBviHi9NIMiYfWseTLjyIsE1g==
 
 babel-plugin-syntax-trailing-function-commas@^7.0.0-beta.0:
   version "7.0.0-beta.0"
